@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Todo(models.Model):
+class Post(models.Model):
   title = models.CharField(max_length=120)
   message = models.TextField()
   date = models.DateField()
